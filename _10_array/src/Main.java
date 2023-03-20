@@ -58,4 +58,7 @@ class Main {
     public static void printList(ArrayList<String> myList){
         System.out.println("List: " + myList.toString());
     }
+    public static void printWorld(){
+        System.out.println("Hello world");
+    }
 }
