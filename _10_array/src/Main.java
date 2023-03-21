@@ -2,12 +2,10 @@ import java.util.*;
 class Main {
     public static void main(String[] args) {
         ArrayList<String> myList = new ArrayList<String>();
-        boolean logic = true;
-        while (logic){
+        while (true){
             prompt();
             int input = getInput();
             action(input, myList);
-            logic = false;
         }
 
     }
@@ -57,8 +55,5 @@ class Main {
     }
     public static void printList(ArrayList<String> myList){
         System.out.println("List: " + myList.toString());
-    }
-    public static void printWorld(){
-        System.out.println("Hello world");
     }
 }
