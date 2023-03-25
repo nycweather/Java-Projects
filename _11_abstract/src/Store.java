@@ -14,4 +14,5 @@ abstract class Store {
     public String getAddress(){
         return this.address;
     }
+
 }
