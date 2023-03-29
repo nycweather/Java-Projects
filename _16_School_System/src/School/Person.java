@@ -1,6 +1,6 @@
 package School;
 
-public class Person {
+public abstract class Person {
     private String name;
     private int idNumber;
     private static int population = 0;
@@ -13,5 +13,17 @@ public class Person {
 
     public static void getPopulation(){
         System.out.println("Current Population: " + Person.population);
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", idNumber=" + idNumber +
+                '}';
+    }
+
+    public void getName(){
+        System.out.println(this.name);
     }
 }
