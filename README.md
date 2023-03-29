@@ -1,2 +1,2 @@
-# Java-Udemy
-Java projects while im learning 
+# Java-Projects
+Java projects while im relearning learning 
